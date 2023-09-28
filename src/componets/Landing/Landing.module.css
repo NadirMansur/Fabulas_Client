@@ -84,3 +84,8 @@
  }
  
 
+ @media (min-width: 320px) and (max-width: 480px) {
+  .leyenda {
+    width: 100%;
+  }
+}

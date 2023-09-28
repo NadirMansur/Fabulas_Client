@@ -66,3 +66,13 @@
       width: 90%;
     }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .tabla {
+    width: 90%;
+  }
+
+  .fabulas {
+    width: 80%;
+  }
+}
