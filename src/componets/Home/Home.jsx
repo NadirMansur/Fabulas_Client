@@ -12,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     reqFabulas("https://openaifabulas-production.up.railway.app/");
     //console.log(fabulas);
-  }, []);
+  });
 
   return (
     <div>

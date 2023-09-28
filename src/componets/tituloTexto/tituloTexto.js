@@ -23,7 +23,7 @@ const TituloTexto = (props) => {
   return (
     <div className={style.historia}>
       <div className={style.tituloConteiner}>
-        <img src={img}></img>
+        <img src={img} alt= "."></img>
       </div>
       <div className={style.parrafo}>
 
