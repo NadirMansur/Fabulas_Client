@@ -12,7 +12,7 @@ import Landing from "./Landing/Landing";
 function App() {
   return (
     <div className='App'>
-      <div>
+      <div className='body'>
         <Routes>
           <Route exact path='/home' element={<Home/>}></Route>
           <Route exact path='/' element={<Landing/>}></Route>

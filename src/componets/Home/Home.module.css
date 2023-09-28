@@ -1,11 +1,17 @@
-
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
   .tablaFila {
     display: flex;
     justify-content: center;
   }
   
   .tabla {
-    background-color:rgb(60, 60, 60);;
+    background-color:rgb(80, 80, 80);
     border-radius: 30px;
     width: 90rem;
     display: flex;
@@ -54,11 +60,15 @@
     align-items: center;
     width: 80rem;
     border-radius: 30px;
-    background: rgb(248, 238, 159);
+    background: #f5ccb0;
     align-self: center;
     gap:1rem;
   }
 
+  .fabula{
+    align-self: space-evenly;
+  }
+  
   @media (min-width: 320px) and (max-width: 768px) {
     .tabla {
       width: 95%;

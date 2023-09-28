@@ -15,7 +15,7 @@ const Home = () => {
   });
 
   return (
-    <div>
+    <div className={style.home}>
       <div className={style.tablaFila}>
         <div className={style.tabla}>
           <div className={style.filaAbout}>
