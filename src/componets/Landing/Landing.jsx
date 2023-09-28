@@ -9,10 +9,10 @@ const Landing = () => {
       <div className={style.layout}>
         <div className={style.body}>
           <div className={style.leyenda}>
-            <div>
+            <div className={style.texto}>
               <h2>Dedicada a una guía, una madre, una amiga.</h2>
             </div>
-            <div>
+            <div className={style.texto}>
               <h3>
                 Aqui encontraras narraciones orientadas a niños, generadas
                 automáticamente por AI. Se publicara cada dia una narración

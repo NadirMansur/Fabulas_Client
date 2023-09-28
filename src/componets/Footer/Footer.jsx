@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
         <div className={style.Conteiner}>
-          <h6>Discord: Atahualpa_Estudio#0463</h6>
+          <h6 className={style.discord}>Discord: Atahualpa_Estudio#0463</h6>
         </div>
       </div>
     </div>

@@ -58,25 +58,20 @@
     align-self: center;
     gap:1rem;
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+
+  @media (min-width: 320px) and (max-width: 768px) {
     .tabla {
-      width: 23rem;
+      width: 95%;
     }
-    .parrafo {
-      width: 90%;
+    
+    .fabulas {
+      max-width: 90%; /* Limita el ancho máximo en pantallas pequeñas */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center ; 
     }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .tabla {
-    width: 90%;
+  
+    .fabula {
+      width: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+    }
   }
-
-  .fabulas {
-    width: 80%;
-  }
-
-  .fabula {
-    width: 70%;
-  }
-}
