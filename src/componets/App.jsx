@@ -9,16 +9,16 @@ import {
 } from "react-router-dom";
 import Home from "./Home/Home";
 import Landing from "./Landing/Landing";
-import Nav from "./components/Nav/Nav.jsx";
-import Abaut from "./components/Abaut/Abaut";
+//import Nav from "./components/Nav/Nav.jsx";
+//import Abaut from "./components/Abaut/Abaut";
 
 function App() {
   return (
     <div className='App'>
       <div>
         <Routes>
-          <Route exact path='/home' component={Home}></Route>
-          <Route exact path='/' component={Landing}></Route>
+          <Route exact path='/home' element={<Home/>}></Route>
+          <Route exact path='/' element={<Landing/>}></Route>
         </Routes>
       </div>
     </div>

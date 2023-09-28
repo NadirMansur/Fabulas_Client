@@ -5,23 +5,23 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <div className={style.desarrollador}>
-        <h3 className={style.artesan}>Desarrollador</h3>
-        <div>
+        <h3 className={style.Conteiner}>Desarrollador</h3>
+        <div className={style.Conteiner}>
           <h6>Nadir Mansur</h6>
         </div>
-        <div>
-          <a href='https://www.linkedin.com/in/nadir-mansur-a36372206/'>
+        <div className={style.Conteiner}>
+          <a  className={style.linkdin} href='https://www.linkedin.com/in/nadir-mansur-a36372206/'>
             {" "}
-            <h6>Linkedin</h6>
+            <h6 className={style.boton}>Linkedin</h6>
           </a>
         </div>
-        <div>
-          <a href='https://github.com/NadirMansur'>
+        <div className={style.Conteiner}>
+          <a className={style.github} href='https://github.com/NadirMansur'>
             {" "}
-            <h6>GitHub</h6>
+            <h6 className={style.boton}>GitHub</h6>
           </a>
         </div>
-        <div>
+        <div className={style.Conteiner}>
           <h6>Discord: Atahualpa_Estudio#0463</h6>
         </div>
       </div>

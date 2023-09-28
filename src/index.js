@@ -1,10 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+//import { ReactDOM } from "react-dom";
+//import React from "react";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./componets/App.jsx";
+import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-    <React.StrictMode>
-          <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
+//import reportWebVitals from "./reportWebVitals";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
+);
+
+//reportWebVitals();

@@ -1,8 +1,3 @@
- /* .landing {
-   background-color: #faf4de;
-   display: flex;
-   flex-direction: column;
- } */
 
 .layout {
   width: 100%;
@@ -17,14 +12,24 @@
   }
   
   .body { 
-    color: #e3d3c8;
+    color: #f3f3f3;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(.././../grupo.jpg);
+    font-family: Comic Sans MS  ;
     
+  }
+  
+  .leyenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #484848;
+    border-radius: 30px;
+    width: 90rem;
   }
   /* .footer { grid-area: "footer"; }  */
   .button {
@@ -43,6 +48,7 @@
    text-transform: uppercase;
    color: var(--color);
    z-index: 1;  
+   margin-bottom: 1rem;
  }
  .button::before,
  .button::after {
