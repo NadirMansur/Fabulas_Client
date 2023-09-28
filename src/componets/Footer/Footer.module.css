@@ -4,57 +4,53 @@
   width: 100%;
   background: #36c;
   background: linear-gradient(
-    115deg,
-    transparent 75%,
-    rgba(60, 60, 60, 0.8) 75%
-    )
-    0 0,
+        115deg,
+        transparent 75%,
+        rgba(60, 60, 60, 0.8) 75%
+      )
+      0 0,
     linear-gradient(245deg, transparent 75%, rgba(60, 60, 60, 0.8) 75%) 0 0,
     linear-gradient(115deg, transparent 75%, rgba(60, 60, 60, 0.8) 75%) 7px -15px,
     linear-gradient(245deg, transparent 75%, rgba(60, 60, 60, 0.8) 75%) 7px -15px,
     #939392;
-    background-size: 15px 30px;
-    gap:15px;
-    color:#ffffff;
-    font-size:x-large;
-    font-family: Lucida Sans Typewriter;
-  }
+  background-size: 15px 30px;
+  gap: 15px;
+  color: #ffffff;
+  font-size: x-large;
+  font-family: Lucida Sans Typewriter;
+}
 
-.desarrollador{
+.desarrollador {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem; 
+  gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.Conteiner{
+.Conteiner {
   background-color: rgba(60, 60, 60, 0.9);
   width: 20rem;
   height: 2rem;
   border-radius: 30px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
-  .linkdin{
-    color: #FFFFFF;
-    text-decoration: none;
-  }
+.Conteiner:hover .boton {
+  color: #36c;
+}
 
-  .github{
-    color: #FFFFFF;
-    text-decoration: none;
-  }
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-  .boton:hover{
-    color:#36c
-  }
 @media (min-width: 320px) and (max-width: 480px) {
   .textos {
-    font-size:small;
+    font-size: small;
   }
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column;
   }

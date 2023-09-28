@@ -24,8 +24,8 @@ const Home = () => {
             </div>
           </div>
           <div className={style.fabulas}>
-            {fabulas.map((fabula) => (
-              <div className={style.fabula}>
+            {fabulas.map((fabula,index) => (
+              <div className={style.fabula } key={index}>
                 {/*console.log("fabulas.map", fabula)*/}
                 {fabula.image ? (
                   <TituloTexto
