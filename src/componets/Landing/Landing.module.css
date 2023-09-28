@@ -88,4 +88,7 @@
   .leyenda {
     width: 100%;
   }
+  .layout {
+    gap: 3rem;
+  }
 }
