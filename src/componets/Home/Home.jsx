@@ -3,7 +3,7 @@ import Footer from "../Footer/Footer";
 import style from "./Home.module.css";
 import TituloTexto from "../tituloTexto/tituloTexto";
 import fabulasStore from "../../store/fabulas";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const Home = () => {
   const fabulas = fabulasStore((state) => state.fabulas);
