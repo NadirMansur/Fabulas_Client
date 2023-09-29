@@ -6,7 +6,7 @@ const fabulasStore = create((set, get) => {
     fabulas: [],
     setFabulas: async (url) => {
       const { data } = await axios.get(url);
-      //console.log(data)
+      console.log("busque la data")
       set({
         fabulas: [...data],
       });
