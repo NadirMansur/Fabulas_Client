@@ -1,4 +1,4 @@
-import style from "./tituloTexto.module.css";
+import style from "./botonPagina.module.css";
 import React from "react";
 
 const BotonPagina = (props) => {
