@@ -11,6 +11,7 @@ const TituloTexto = (props) => {
   const [paginaActual, setPaginaActual] = useState(0);
 
   const siguientePagina = () => {
+    //console.log("Siguiente");
     if (paginaActual < paginas.length - 1) {
       setPaginaActual(paginaActual + 1);
     }
