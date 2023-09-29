@@ -1,6 +1,5 @@
 import style from "../Landing/Landing.module.css";
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer.jsx";
 //import LogoYNombre from "../LogoYNombre/LogoYNombre";
 
 const Landing = () => {
