@@ -1,6 +1,8 @@
 import style from "./tituloTexto.module.css";
 import paginarTexto from "./paginarTexto.js";
 import React, { useState } from "react";
+import BotonPagina from "./botonPagina.js";
+import ImagenConteiner from "./ImagenConteiner.js";
 
 const TituloTexto = (props) => {
   const { img, texto } = props;
@@ -22,27 +24,18 @@ const TituloTexto = (props) => {
 
   return (
     <div className={style.historia}>
-      <div className={style.tituloConteiner}>
-        <img src={img} alt= "."></img>
+      <ImagenConteiner img={img}></ImagenConteiner>
+      <div className={style.botones}>
+        <BotonPagina
+          text='Anterior pagina'
+          onClick={anteriorPagina}
+        ></BotonPagina>
+        <BotonPagina
+          text='Siguiente pagina'
+          onClick={siguientePagina}
+        ></BotonPagina>
       </div>
       <div className={style.parrafo}>
-
-        <div className={style.botones}>
-          <button className={style.btn}
-            onClick={() => {
-              anteriorPagina();
-            }}
-          >
-            Anterior pagina
-          </button>
-          <button className={style.btn}
-            onClick={() => {
-              siguientePagina();
-            }}
-          >
-            Siguiente pagina
-          </button>
-        </div>
         <h4>{paginas[paginaActual]}</h4>
       </div>
     </div>

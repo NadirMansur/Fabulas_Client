@@ -57,18 +57,18 @@
   
   .fabulas{
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 80rem;
+    width: 75rem;
     border-radius: 30px;
-    background: #f5ccb0;
+    background: rgb(248, 238, 159);
     align-self: center;
     margin-bottom: 30px;
   }
 
   .fabula{
-    align-self: space-evenly;
   }
   
   @media (min-width: 320px) and (max-width: 768px) {
