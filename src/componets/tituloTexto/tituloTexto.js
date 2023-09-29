@@ -33,14 +33,14 @@ const TituloTexto = (props) => {
               anteriorPagina();
             }}
           >
-            Anterior pagina{" "}
+            Anterior pagina
           </button>
           <button className={style.btn}
             onClick={() => {
               siguientePagina();
             }}
           >
-            Siguiente pagina{" "}
+            Siguiente pagina
           </button>
         </div>
         <h4>{paginas[paginaActual]}</h4>
