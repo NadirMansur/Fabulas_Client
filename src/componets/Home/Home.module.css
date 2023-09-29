@@ -52,7 +52,7 @@
     font-family: "Inter-Bold", Helvetica;
     line-height: normal;
   }
-
+  
   .fabulas{
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +62,7 @@
     border-radius: 30px;
     background: #f5ccb0;
     align-self: center;
-    gap:1rem;
+    margin-bottom: 30px;
   }
 
   .fabula{
@@ -71,17 +71,17 @@
   
   @media (min-width: 320px) and (max-width: 768px) {
     .tabla {
-      width: 95%;
+      width: 19rem;
     }
     
     .fabulas {
-      max-width: 90%; /* Limita el ancho máximo en pantallas pequeñas */
+      width: 17rem; 
       flex-direction: column;
       justify-content: center;
       align-items: center ; 
     }
   
     .fabula {
-      width: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+      width: 15rem;
     }
   }
