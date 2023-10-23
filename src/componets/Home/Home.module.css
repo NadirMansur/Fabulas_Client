@@ -5,17 +5,17 @@
   align-items: center;
   gap: 30px;
 }
-  .tablaFila {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .tabla {
-    background-color:rgb(80, 80, 80);
-    border-radius: 30px;
-    width: 90rem;
-    display: flex;
-    flex-direction: column;
+.tablaFila {
+  display: flex;
+  justify-content: center;
+}
+
+.tabla {
+  background-color:rgb(80, 80, 80);
+  border-radius: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
     justify-content: space-evenly;
     align-items: space-evenly;
     gap: 15px;
@@ -61,15 +61,10 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 75rem;
-    border-radius: 30px;
-    background: rgb(60, 60, 60);
     align-self: center;
     margin-bottom: 30px;
   }
 
-  .fabula{
-  }
   
   @media (min-width: 320px) and (max-width: 768px) {
     .tabla {

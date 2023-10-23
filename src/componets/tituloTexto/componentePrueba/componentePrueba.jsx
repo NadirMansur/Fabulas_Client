@@ -1,10 +1,10 @@
-import style from "./tituloTexto.module.css";
-import paginarTexto from "./paginarTexto.js";
+import style from "./componentePrueba.module.css";
+import paginarTexto from "../paginarTexto.js";
 import React, { useState } from "react";
-import BotonPagina from "./botonPagina.js";
-import ImagenConteiner from "./ImagenConteiner.js";
+import BotonPagina from "../botonPagina.js";
+import ImagenConteiner from "../ImagenConteiner.js";
 
-const TituloTexto = (props) => {
+const ComponentePrueba = (props) => {
   const { img, texto } = props;
 
   const paginas = paginarTexto(texto, 600);
@@ -24,8 +24,11 @@ const TituloTexto = (props) => {
   };
 
   return (
-    <div className={style.historia}>
-      <ImagenConteiner img={img}></ImagenConteiner>
+    <div className={style.container}>
+      <div className={style.ImagenConteiner}>
+        <ImagenConteiner img={img}></ImagenConteiner>
+      </div>
+      <hr></hr>
       <div className={style.botones}>
         <BotonPagina
           text='Anterior pagina'
@@ -36,12 +39,14 @@ const TituloTexto = (props) => {
           onClick={siguientePagina}
         ></BotonPagina>
       </div>
-      <div className={style.parrafo}>
-        <h4>{paginas[paginaActual]}</h4>
+      {/* <hr></hr> */}
+      <div className={style.textContainer}>
+        {/* <div className={style.button}>Tags</div> */}
+        <hr></hr>
+        <p>{paginas[paginaActual]}</p>
       </div>
     </div>
   );
 };
 
-export default TituloTexto;
-
+export default ComponentePrueba;

@@ -2,6 +2,7 @@ import Footer from "../Footer/Footer";
 //import style from "./About.module.css";
 import style from "./Home.module.css";
 import TituloTexto from "../tituloTexto/tituloTexto";
+import ComponentePrueba from "../tituloTexto/componentePrueba/componentePrueba"
 import fabulasStore from "../../store/fabulas";
 import { useEffect } from "react";
 
@@ -27,7 +28,8 @@ const Home = () => {
             {fabulas.map((fabula, index) => (
               <div className={style.fabula} key={index}>
                 {fabula.image ? (
-                  <TituloTexto img={fabula.image} texto={fabula.texto}></TituloTexto>
+                <ComponentePrueba img={fabula.image} texto={fabula.texto}></ComponentePrueba>
+                  // <TituloTexto img={fabula.image} texto={fabula.texto}></TituloTexto>
                 ) : null}
               </div>
             ))}
