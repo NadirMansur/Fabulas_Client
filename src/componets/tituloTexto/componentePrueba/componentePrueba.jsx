@@ -44,7 +44,7 @@ const ComponentePrueba = (props) => {
         {/* <div className={style.button}>Tags</div> */}
         <hr></hr>
         <p>{paginas[paginaActual]}</p>
-        <br></br>
+        {/* <br></br> */}
       </div>
     </div>
   );
