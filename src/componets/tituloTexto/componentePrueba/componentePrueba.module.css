@@ -50,3 +50,15 @@ p{
     color: rgb(214, 214, 214);
     align-self: flex-start;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .container {
+      width: 90%;
+      align-self: center;
+    }
+  
+    .btn {
+      width: 6rem;
+    }
+  }
+  
