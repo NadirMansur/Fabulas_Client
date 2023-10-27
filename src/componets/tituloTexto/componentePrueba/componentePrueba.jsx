@@ -42,7 +42,7 @@ const ComponentePrueba = (props) => {
       {/* <hr></hr> */}
       <div className={style.textContainer}>
         {/* <div className={style.button}>Tags</div> */}
-        <hr></hr>
+        <hr className={style.hrTextContainer}></hr>
         <p>{paginas[paginaActual]}</p>
         {/* <br></br> */}
       </div>
