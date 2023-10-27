@@ -13,7 +13,9 @@
   border-radius: 30px;
   width: 80%;
 }
-
+.h6{
+  margin:0;
+}
 .desarrollador {
   display: flex;
   flex-direction: column;
