@@ -69,17 +69,10 @@
   
   @media (min-width: 320px) and (max-width: 768px) {
     .tabla {
-      width: 19rem;
-    }
-    
-    .fabulas {
-      width: 17rem; 
-      flex-direction: column;
-      justify-content: center;
-      align-items: center ; 
+      width: 17rem;
     }
   
     .fabula {
-      width: 15rem;
+      width: 16rem;
     }
   }

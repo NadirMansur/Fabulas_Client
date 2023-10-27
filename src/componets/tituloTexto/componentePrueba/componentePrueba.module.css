@@ -53,8 +53,9 @@ p{
 
 @media (min-width: 320px) and (max-width: 768px) {
     .container {
-      width: 90%;
+      width: 100%;
       align-self: center;
+      height: auto !important;
     }
   
     .btn {
