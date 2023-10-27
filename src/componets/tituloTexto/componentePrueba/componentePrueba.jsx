@@ -31,11 +31,11 @@ const ComponentePrueba = (props) => {
       <hr></hr>
       <div className={style.botones}>
         <BotonPagina
-          text='Anterior pagina'
+          text='Página Anterior'
           onClick={anteriorPagina}
         ></BotonPagina>
         <BotonPagina
-          text='Siguiente pagina'
+          text='Página Anterior'
           onClick={siguientePagina}
         ></BotonPagina>
       </div>
@@ -44,6 +44,7 @@ const ComponentePrueba = (props) => {
         {/* <div className={style.button}>Tags</div> */}
         <hr></hr>
         <p>{paginas[paginaActual]}</p>
+        <br></br>
       </div>
     </div>
   );
