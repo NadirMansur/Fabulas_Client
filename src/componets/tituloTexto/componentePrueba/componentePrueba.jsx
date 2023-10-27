@@ -7,7 +7,7 @@ import ImagenConteiner from "../ImagenConteiner.js";
 const ComponentePrueba = (props) => {
   const { img, texto } = props;
 
-  const paginas = paginarTexto(texto, 600);
+  const paginas = paginarTexto(texto, 555);
   const [paginaActual, setPaginaActual] = useState(0);
 
   const siguientePagina = () => {
@@ -39,7 +39,7 @@ const ComponentePrueba = (props) => {
           onClick={siguientePagina}
         ></BotonPagina>
       </div>
-      <hr className={style.hrTextContainer}></hr>
+      <hr></hr>
       {/* <hr></hr> */}
       <div className={style.textContainer}>
         {/* <div className={style.button}>Tags</div> */}
