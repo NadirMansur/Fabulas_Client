@@ -28,11 +28,11 @@ const TituloTexto = (props) => {
       <ImagenConteiner img={img}></ImagenConteiner>
       <div className={style.botones}>
         <BotonPagina
-          text='Anterior pagina'
+          text='Página Anterior'
           onClick={anteriorPagina}
         ></BotonPagina>
         <BotonPagina
-          text='Siguiente pagina'
+          text='Página Siguiente'
           onClick={siguientePagina}
         ></BotonPagina>
       </div>
