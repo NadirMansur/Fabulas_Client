@@ -38,6 +38,7 @@ const TituloTexto = (props) => {
       </div>
       <div className={style.parrafo}>
         <h4>{paginas[paginaActual]}</h4>
+        <br></br>
       </div>
     </div>
   );
