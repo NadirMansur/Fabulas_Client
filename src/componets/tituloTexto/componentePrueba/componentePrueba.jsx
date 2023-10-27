@@ -35,7 +35,7 @@ const ComponentePrueba = (props) => {
           onClick={anteriorPagina}
         ></BotonPagina>
         <BotonPagina
-          text='Página Anterior'
+          text='Siguiente Página '
           onClick={siguientePagina}
         ></BotonPagina>
       </div>
