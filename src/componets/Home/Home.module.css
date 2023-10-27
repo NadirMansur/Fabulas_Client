@@ -54,7 +54,9 @@
     font-family: "Inter-Bold", Helvetica;
     line-height: normal;
   }
-  
+  .fabula{
+    margin-top: 1rem;
+  }
   .fabulas{
     display: flex;
     /* flex-direction: column; */
