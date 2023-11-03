@@ -5,7 +5,7 @@ import BotonPagina from "../botonPagina.js";
 import ImagenConteiner from "../ImagenConteiner.js";
 
 const ComponentePrueba = (props) => {
-  const { img, texto } = props;
+  const { img, texto, personajes, moraleja } = props;
 
   const paginas = paginarTexto(texto, 555);
   const [paginaActual, setPaginaActual] = useState(0);
@@ -28,6 +28,14 @@ const ComponentePrueba = (props) => {
       <div className={style.ImagenConteiner}>
         <ImagenConteiner img={img}></ImagenConteiner>
       </div>
+      <div className={style.personajes}>
+        <div className={style.contenedorPersonaje}>
+          <h4>Personajes:</h4>
+        </div>
+        <div className={style.button}>{personajes[0]}</div>
+        <div className={style.button}>{personajes[1]}</div>
+        <div className={style.button}>{personajes[2]}</div>
+      </div>
       <hr></hr>
       <div className={style.botones}>
         <BotonPagina
@@ -42,7 +50,6 @@ const ComponentePrueba = (props) => {
       <hr></hr>
       {/* <hr></hr> */}
       <div className={style.textContainer}>
-        {/* <div className={style.button}>Tags</div> */}
         <p>{paginas[paginaActual]}</p>
         {/* <br></br> */}
       </div>

@@ -7,8 +7,9 @@ const fabulasStore = create((set, get) => {
     setFabulas: async (url) => {
       const { data } = await axios.get(url);
       console.log("busque la data")
+      const invertido = data.reverse();
       set({
-        fabulas: [...data],
+        fabulas: [...invertido],
       });
     },
   };

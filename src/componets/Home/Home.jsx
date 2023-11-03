@@ -27,7 +27,7 @@ const Home = () => {
             {fabulas.map((fabula, index) => (
               <div className={style.fabula} key={index}>
                 {fabula.image ? (
-                <ComponentePrueba img={fabula.image} texto={fabula.texto}></ComponentePrueba>
+                <ComponentePrueba img={fabula.image} texto={fabula.texto} moraleja={fabula.moraleja} personajes={fabula.personajes}></ComponentePrueba>
                 ) : null}
               </div>
             ))}
