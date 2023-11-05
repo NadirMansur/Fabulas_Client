@@ -8,9 +8,9 @@ import { useEffect } from "react";
 const Home = () => {
   const fabulas = fabulasStore((state) => state.fabulas);
   const reqFabulas = fabulasStore((state) => state.setFabulas);
-
+  const url ="https://openaifabulas-production.up.railway.app/"
   useEffect(() => {
-    reqFabulas("https://openaifabulas-production.up.railway.app/");
+    reqFabulas(url);
     //console.log(fabulas);
   },[]);
 

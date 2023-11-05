@@ -8,7 +8,7 @@
     background-color: rgb(150, 150, 150);
     border-radius: 20px;
     box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.2);
-    height: 42rem;
+    height: 44rem;
 }
 .personajes{
     display: flex;
@@ -51,6 +51,7 @@
     margin: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 /* .hrTextContainer{
     width: 16rem;
@@ -62,6 +63,20 @@
 /* .title{
     font-size: 24px;
 } */
+.titulo{
+    background-color: rgb(196, 164, 226);
+    height: 2rem;
+    border-radius: 30px;
+    /* width: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulop{
+    color: rgb(12   3, 44, 123);
+    align-self: center;
+    font-size: medium;
+}
 p{
     font-size: 14px;
     color: rgb(214, 214, 214);
